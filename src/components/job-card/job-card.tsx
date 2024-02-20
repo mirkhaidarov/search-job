@@ -50,7 +50,7 @@ export function JobCard() {
             <SkillsContainer>
               {skills.map((skill) => {
                 return (
-                  <SkillsWrapper>
+                  <SkillsWrapper key={skill}>
                     <Badge textTrasform="uppercase">{skill}</Badge>
                   </SkillsWrapper>
                 )

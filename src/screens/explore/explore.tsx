@@ -7,8 +7,8 @@ export function Explore() {
     <Container>
       <Wrapper>
         <Main>
-          {Array.from({ length: 10 }).map(() => (
-            <JobCard />
+          {Array.from({ length: 10 }).map((_, index) => (
+            <JobCard key={`${index}-salt`} />
           ))}
         </Main>
         <FiltersContainer>
