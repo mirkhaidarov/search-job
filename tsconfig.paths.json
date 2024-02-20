@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["src/shared/*"],
+      "@core/*": ["src/core/*"],
+      "@infra/*": ["src/infra/*"],
+      "@modules/*": ["src/modules/*"],
+      "@ui/*": ["src/ui/*"],
+      "@style/*": ["src/style/*"],
+      "@search-types/*": ["src/types/*"],
+      "@components/*": ["src/components/*"],
+      "@screens/*": ["src/screens/*"]
+    }
+  }
+}
